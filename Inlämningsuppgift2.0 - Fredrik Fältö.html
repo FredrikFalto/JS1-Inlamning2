@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämningsuppgift 2 - Fredrik Fältö</title>
+</head>
+
+<script src="Inlämningsuppgift2.0 - Fredrik Fältö.js"></script>
+
+<style>
+    body {
+        background-color: aliceblue;
+    }
+
+    /* CSS för att centrera sidans innehåll */
+    div {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- Skapar en div för att centrera sidans innehåll -->
+    <div>
+        <!-- Inputfält där användaren matar in information -->
+        <input type="text" id="txtfName" placeholder="First name"><br>
+        <input type="text" id="txtlName" placeholder="Last name"><br>
+        <input type="number" id="txtAge" placeholder="Age"><br>
+        <label for="chkHero">Superhero:</label>
+        <input type="checkbox" id="chkHero"><br>
+        <input type="text" id="txtHeroname" placeholder="Superhero name"><br><br>
+
+        <!-- Knappar för att anropa de olika funktionerna -->
+        <button type="button" onclick="submit()">Register</button>
+        <button type="button" onclick="allPeople()">Show all people</button><br><br>
+        <button type="button" onclick="happyBirthday()">Birthday</button>
+        <button type="button" onclick="letsFly()">Fly me to the moon</button>
+        <button type="button" onclick="greetingsFriend()">Greetings</button>
+
+        <!-- Paragraftaggar för utskrifter -->
+        <p id="output"></p>
+        <p id="output2"></p>
+    </div>
+</body>
+
+</html>
